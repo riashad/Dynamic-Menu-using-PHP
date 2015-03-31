@@ -7,6 +7,28 @@
  */
 ?>
 <style>
+	/*Menu*/
+
+	ul#menu{
+		padding: 0;
+		text-align: center;
+	}
+
+	ul#menu li{
+		display: inline;	
+	}
+
+	ul#menu li a {
+		background-color: black;
+		color: white;
+		padding: 10px 20px;
+		text-decoration: none;
+		border-radius: 0px 0px 4px 4px ;
+	}
+
+	ul#menu li a:hover{
+		background-color: orange;
+	}
     nav ul li a.current {
         background-color: lightseagreen;
     }
